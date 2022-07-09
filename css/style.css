@@ -84,23 +84,39 @@ body {
 .services__subtitle {
 }
 .project {
-  width: 353px;
- 
+  max-width: 353px;
+  display: flex;
+  min-height: 139px;
+}
+.project__nested {
+  
+}
+.text{
+  margin-top: 39px;
 }
 .project__list {
   display: grid;
   grid-template-columns: repeat(3, 353px);
   gap: 27px;
   margin: 70px 0px 55px 0px;
+  grid-template-columns: repeat(auto-fill, minmax(353px, 1fr));
 }
 .project__img {
- 
+  margin-right: 52px;
 }
+
 .project__title {
   color: black;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 12px;
 }
 .project__subtitle {
   color: #999999;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
 }
 /* --------------------------------------------- */
 @media (max-width: 1440px) {
