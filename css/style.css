@@ -79,9 +79,21 @@ body {
 }
 .container {
 }
+.section__inner{
+  text-align: center;
+}
 .title__services {
+  
+  margin-top: 110px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
 }
 .services__subtitle {
+ 
+  margin-top: 50px;
+  color: #999999;
 }
 .project {
   max-width: 353px;
@@ -89,9 +101,8 @@ body {
   min-height: 139px;
 }
 .project__nested {
-  
 }
-.text{
+.text {
   margin-top: 39px;
 }
 .project__list {
